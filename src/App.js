@@ -1,12 +1,18 @@
-
 import "./App.css";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar.jsx";
+import Shop from "./pages/shop/Shop.jsx";
+import Cart from "./pages/cart/Cart.jsx";
 function App() {
   return (
     <div className="App">
-      <h1>
-        Hello CodeSandbox
-      </h1>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Shop />} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
