@@ -1,7 +1,7 @@
 import React from 'react';
-import {PRODUCTS} from '../../products'
-import Product from './Product'
-import './shop.css'
+import {PRODUCTS} from '../../products.js';
+import Product from './Product.jsx';
+import './shop.css';
 
 const Shop = () => {
     return (
@@ -10,7 +10,7 @@ const Shop = () => {
                 <h1>Sew In Style</h1>
             </div>
             <div className='products'>
-                {PRODUCTS.map(product => (
+                {PRODUCTS.map((product) => (
                     <Product
                         data={product}
                     ></Product>

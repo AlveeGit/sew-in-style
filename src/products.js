@@ -6,6 +6,8 @@ import product5 from "./assets/t-shirt.jpg";
 import product6 from "./assets/shoe.jpg";
 import product7 from "./assets/sweatshirt.jpg";
 import product8 from "./assets/tops.jpg";
+
+
 export const PRODUCTS = [
     {
         id: 1,
