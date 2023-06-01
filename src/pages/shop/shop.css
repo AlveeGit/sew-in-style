@@ -36,10 +36,10 @@ body {
 
 
 .product img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   transition: 1s ease-in-out;
-  border-radius: 5%;
+  border-radius: 50%;
   border: 2px solid black;
 }
 
@@ -51,8 +51,8 @@ body {
 
 .product img:hover {
   cursor: pointer;
-  transform: scale(0.7) rotate(360deg);
-  border-radius: 50%;
+  transform: scale(1.5) rotate(360deg);
+  border-radius: 5%;
 }
 
 .addToCartBttn {
@@ -60,17 +60,16 @@ body {
   border: 2px solid rgb(19, 19, 19);
   min-width: 100px;
   margin-top: 10px;
-
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 15px;
-  transition: .5s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .addToCartBttn:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
   cursor: pointer;
 }
 
